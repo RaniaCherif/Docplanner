@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Docplanner</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
@@ -33,11 +34,21 @@
 </div>
 
 <!--------------------slice 3---------------------->
-<div class="container d-flex flex-md-row text-center  ">
+<div class="container d-flex flex-row text-center my-4  ">
   <div class="bg mx-2 my-2 rounded-2">
     <img src="https://www.docplanner.com/icons/icon-patients.svg">
    <h2>For patients</h2>
    <p>Find a doctor, book a visit and solve any health-related doubt</p>
+   <div class="btn-group">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Right-aligned menu example
+    </button>
+    <ul class="dropdown-menu">
+      <li><button class="dropdown-item" type="button">Action</button></li>
+      <li><button class="dropdown-item" type="button">Another action</button></li>
+      <li><button class="dropdown-item" type="button">Something else here</button></li>
+    </ul>
+  </div>
   </div>
   <div class="bg1 mx-2 my-2 rounded-2">
     <img src="https://www.docplanner.com/icons/icon-doctors.svg">
