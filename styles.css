@@ -10,3 +10,9 @@ color: white;
     background-color:  rgb(27, 39, 53);
     color: white;
 }
+.brand1 :hover{
+ fill: rgb(0, 204, 177);     
+}
+.brand1 :not(:hover){
+    fill: gray;  
+   }
