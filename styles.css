@@ -15,4 +15,11 @@ color: white;
 }
 .brand1 :not(:hover){
     fill: gray;  
-   }
+}
+body{
+    padding: 0;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
